@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'CustomFont';
-  src: url(../src/assets/fonts/Blue\ Screen\ Personal\ Use.ttf) format('truetype');
+  src: url('../public/fonts/Blue\ Screen\ Personal\ Use.ttf') format('truetype');
 }
 
 html, body {
