@@ -3,14 +3,17 @@ import ProjectList from "./ProjectList"
 import Resume from "./Resume"
 
 export default function Content( {activeSection} ) {
-    if (!activeSection) return <></>
+    if (!activeSection) return <div className = "content"></div>
     
     
      return (
     <div className="content">
-      {activeSection === "About" && <About />}
-      {activeSection === "Projects" && <ProjectList />}
-      {activeSection === "Resume" && <Resume />}
+      <div className = "inner-content">
+        {activeSection === "About" && <About />}
+        {activeSection === "Projects" && <ProjectList />}
+        {activeSection === "Resume" && <Resume />}
+      </div>
+      
     </div>
   )
 }

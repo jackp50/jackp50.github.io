@@ -3,11 +3,17 @@ export default function menu({setActiveSection}) {
     return(
         <>
             <div className = "menu">
-                {menuItems.map((item) => (
-                    <button key = {item} onClick = {() => setActiveSection(item)}>
-                        {item}
-                    </button>
-                ))}
+                <h2>Jack Pearne</h2>
+                <p>Front End Web Developer</p>
+                <div className = "menu-items">
+                    {menuItems.map((item) => (
+                        <button key = {item} onClick = {() => setActiveSection(item)}>
+                            {item}
+                        </button>
+                    ))}
+
+                </div>
+                
             </div>
         </>
     )
