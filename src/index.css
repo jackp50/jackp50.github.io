@@ -13,7 +13,8 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  overflow: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
 }
 
 /* Layout */
@@ -96,10 +97,7 @@ html, body {
   padding: 20px;
   overflow-y: auto;
   scrollbar-width: none;
-}
-
-.inner-content::-webkit-scrollbar {
-  display: none;
+  
 }
 
 /* Project List */
