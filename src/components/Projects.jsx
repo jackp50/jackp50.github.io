@@ -9,12 +9,12 @@ export default function Projects( {title, description, link} ) {
                     {title}
                 </h3>
             
-            {isExpanded && (
-                <div className="project-details">
-                <p>{description}</p>
-                <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
-            )}
+                {isExpanded && (
+                    <div className="project-details">
+                        <p>{description}</p>
+                        <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
+                )}
             </div>
   )
 }

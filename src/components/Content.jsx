@@ -10,7 +10,7 @@ export default function Content( {activeSection} ) {
     <div className="content">
       <div className = "inner-content">
         {activeSection === "About" && <About />}
-        {activeSection === "Projects" && <ProjectList />}
+        {activeSection === "Projects" && <ProjectList activeSection={activeSection} />}
         {activeSection === "Resume" && <Resume />}
       </div>
       
