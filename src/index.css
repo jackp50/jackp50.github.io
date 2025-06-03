@@ -14,9 +14,6 @@ html, body {
   padding: 0;
   height: 100vh;
   overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: auto;
-  scrollbar-width: none;
 }
 
 /* Layout */
@@ -99,12 +96,10 @@ html, body {
   padding: 20px;
   overflow-y: auto;
   scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  touch-action: manipulation;
 }
 
-.inner-content::-webkit-scrollbar {
-  display: none;
-  
-}
 
 /* Project List */
 .project-list {
@@ -200,7 +195,9 @@ html, body {
   .inner-content {
     width: 90vw;
     height: auto;
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    touch-action: manipulation;
   }
 
   .menu button {
