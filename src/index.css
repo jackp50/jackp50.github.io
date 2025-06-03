@@ -97,6 +97,8 @@ html, body {
   padding: 20px;
   overflow-y: auto;
   scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  touch-action: manipulation;
   
 }
 
