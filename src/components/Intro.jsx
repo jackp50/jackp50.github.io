@@ -12,7 +12,7 @@ export default function Intro() {
   return (
     visible && (
       <div className="intro-screen">
-        <h1>Jack Pearne - Portfolio</h1>
+        <h1>Jack Pearne - Portfolio - Fix Phone scroll</h1>
       </div>
     )
   );

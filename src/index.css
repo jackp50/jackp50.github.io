@@ -193,8 +193,12 @@ html, body {
   }
 
   .inner-content {
+    overflow-y: auto;
+    scrollbar-width: none;
     width: 90vw;
     height: auto;
+    max-height: 80vh;
+    -webkit-overflow-scrolling: touch;
   }
 
   .menu button {
