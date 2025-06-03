@@ -13,8 +13,8 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  overflow-y: auto;
-  scrollbar-width: none;
+  overflow: hidden;
+  touch-action: none;
 }
 
 /* Layout */
@@ -194,7 +194,9 @@ html, body {
   .inner-content {
     width: 90vw;
     height: auto;
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    touch-action: manipulation;
   }
 
   .menu button {
