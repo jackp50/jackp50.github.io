@@ -168,6 +168,10 @@ html, body {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+
+  html, body {
+    overflow: auto;
+  }
   .container {
     flex-direction: column; /* Stack items for mobile */
   }
