@@ -138,6 +138,11 @@ html, body {
   transition: opacity 0.3s ease-in-out;
 }
 
+.project-details a {
+  color: white;
+  text-decoration: none;
+}
+
 .projects.expanded .project-details {
   opacity: 1;
 }
