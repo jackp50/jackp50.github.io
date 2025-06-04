@@ -94,7 +94,8 @@ html, body {
   height: 80vh;
   background-color: #000000;
   padding: 20px;
-  
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 
@@ -170,15 +171,21 @@ html, body {
   }
 
   .container {
+    display: flex;
     flex-direction: column; /* Stack items for mobile */
   }
 
   .menu {
-    position: static; /* Allow menu to adjust */
+    position: relative; /* Allow menu to adjust */
     width: 100%;
     height: auto;
     padding: 10px;
     text-align: center;
+  }
+
+  .project-list {
+    width: 100%;
+    margin-top: 10px; /* Push it below the menu */
   }
 
   .menu-items {
@@ -194,10 +201,11 @@ html, body {
   }
 
   .inner-content {
-    width: 90vw;
-    height: auto;
-    overflow-y: scroll;
-  }
+  width: 90vw;
+  min-height: 80vh;
+  max-height: 100vh;
+  overflow-y: auto;
+}
 
   .menu button {
     font-size: 20px;
