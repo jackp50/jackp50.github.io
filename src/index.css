@@ -163,12 +163,43 @@ html, body {
   100% { background-color: black; color: white; }
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  animation: fadeInMenuItems 1.5s ease-in-out forwards;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
+.resume h2,
+.resume h3,
+.resume p,
+.resume ul {
+  opacity: 0;
+  animation: fadeInMenuItems 1.5s ease-in-out forwards;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
 
   html, body {
     overflow-y: auto;
   }
+
+  .social-links img {
+  width: 30px;
+  height: 30px;
+}
 
   .container {
     display: flex;
