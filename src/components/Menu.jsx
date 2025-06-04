@@ -16,10 +16,10 @@ export default function menu({setActiveSection}) {
 
                 <div className="social-links">
                     <a href="https://github.com/jackp50" target="_blank" rel="noopener noreferrer">
-                        <img src = "./images/github-mark-white.svg" alt="GitHub" />
+                        <img src = "/images/github-mark-white.svg" alt="GitHub" />
                     </a>
                     <a href="https://linkedin.com/in/jack-pearne-2583b5232" target="_blank" rel="noopener noreferrer">
-                        <img src="./images/InBug-White.png" alt="LinkedIn" />
+                        <img src="/images/InBug-White.png" alt="LinkedIn" />
                     </a>
                 </div>
                 
