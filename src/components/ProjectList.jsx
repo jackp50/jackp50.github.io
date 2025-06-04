@@ -20,16 +20,34 @@ export default function ProjectList({ activeSection }) {
             skills: ["React", "API Integration","Vanilla JS", "HTML", "CSS", "CoPilot AI"]
         },
         {
-            title: "Tenzies",
+            title: "Tenzies - Scrimba",
             description: "A fun and interactive digital version of the classic Tenzies dice game. Players roll 10 dice, strategically holding numbers to match all dice. Developed as part of Scrimba’s React course, this project demonstrates state management and UI interactivity.",
             link: "https://jackp50.github.io/tenzies/",
             skills: ["React", "Vanilla JS", "HTML", "CSS", "CoPilot AI", "Scrimba"]
+        },
+        {
+            title: "AI Chef - Scrimba",
+            description: "What started as a Scrimba project, I made into an AI-powered recipe assistant that suggests meal ideas based on user-selected ingredients. This project demonstrates API integration, real-time data processing, and a smooth UI for user interaction.",
+            link: "https://jackp50.github.io/scrimba-chef-claude/",
+            skills: ["React", "API Integration", "Node.js", "Express", "Render", "Anthropic Claude API", "Vanilla JS", "HTML", "CSS", "CoPilot AI", "Scrimba"]
         },
         {
             title: "Battleship",
             description: "A browser-based Battleship game where players challenge an AI opponent in a strategic naval showdown. This project highlights efficient game logic, responsive UI design, and JavaScript-powered interactive gameplay.",
             link: "https://jackp50.github.io/battleship/",
             skills: ["Vanilla JS", "HTML", "CSS", "CoPilot AI"]
+        },
+        {
+            title: "Mattress Man Media",
+            description: "A media review website inspired by the pixel-art aesthetics of early 2010s blogs. Built entirely with HTML and CSS, this project pushed creative design limits while delivering a vibrant and engaging web experience.",
+            link: "https://mattressmanmedia.com/",
+            skills: ["HTML", "CSS"]
+        },
+        {
+            title: "This Portfolio Website",
+            description: "A personal portfolio showcasing my web development projects and skills. Built with React and custom CSS for a polished, dynamic design, this site highlights seamless navigation, smooth transitions, and a structured layout.",
+            link: "https://jackp50.github.io/",
+            skills: ["React", "Vanilla JS", "HTML", "CSS", "CoPilot AI"]
         },
         {
             title: "Weather App",
@@ -42,18 +60,6 @@ export default function ProjectList({ activeSection }) {
             description: "A classic two-player Tic Tac Toe game built for intuitive side-by-side play. Featuring a clean UI and seamless game logic, this project demonstrates DOM manipulation, event handling, and interactive component design.",
             link: "https://jackp50.github.io/TicTacToe/",
             skills: ["Vanilla JS", "HTML", "CSS"]
-        },
-        {
-            title: "Mattress Man Media",
-            description: "A media review website inspired by the pixel-art aesthetics of early 2010s blogs. Built entirely with HTML and CSS, this project pushed creative design limits while delivering a vibrant and engaging web experience.",
-            link: "https://mattressmanmedia.com/",
-            skills: ["HTML", "CSS"]
-        },
-        {
-            title: "Portfolio Website",
-            description: "A personal portfolio showcasing my web development projects and skills. Built with React and custom CSS for a polished, dynamic design, this site highlights seamless navigation, smooth transitions, and a structured layout.",
-            link: "https://jackp50.github.io/",
-            skills: ["React", "Vanilla JS", "HTML", "CSS", "CoPilot AI"]
         }
     ]
 
