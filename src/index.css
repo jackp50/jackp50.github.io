@@ -232,9 +232,16 @@ html, body {
 }
 
 @media screen and (max-width: 480px) {
+
+  .html, body {
+    overflow-x: hidden;
+  }
+
   .menu {
     width: 100px;
     padding: 10px;
+    display: flex;
+    text-align: center;
   }
 
   .content {
@@ -243,14 +250,39 @@ html, body {
     width: calc(100% - 100px);
     padding: 10px;
     flex-direction: column;
-    align-items: flex-start;
   }
 
   .inner-content {
-    max-height: 70vh;
-    overflow-y: auto;
-    width: 95vw;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden; /* Stops content from expanding beyond the screen */
+  overflow-y: auto; /* Allows vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Keeps centered sections from stretching full width */
+}
+
+  .project-list {
+    align-self: center;
+    margin-left: 75px;
+    overflow-x:hidden;
+    scrollbar-width: none;
   }
+
+    .projects {
+    max-width: 90%; /* Ensures it doesn't exceed `.inner-content` */
+    width: 90%; /* Keeps it readable on mobile */
+    padding: 10px;
+    text-align: right;
+  }
+
+.about, .resume {
+  align-self: center;
+  font-size: 15px;
+  text-align: right;
+  
+  
+}
 
   .projects h3 {
     font-size: 20px;
