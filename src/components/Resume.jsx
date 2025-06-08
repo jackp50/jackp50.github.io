@@ -31,8 +31,10 @@ export default function Resume() {
 
             <h3>Work Experience</h3>
             <ul>
-                <li><strong>Digital Marketing Intern – The Lyric Cinema</strong> | Aug 2023 – Dec 2023</li>
-                <li><strong>Supply Chain Analyst – CSU Housing & Dining Warehouse</strong> | Jan 2022 – Present</li>
+                <li><strong>Web Developer – Personal Projects</strong> | Aug 2024 – Present</li>
+                <li><strong>Supply Chain Coordinator – CSU Housing & Dining Warehouse</strong> | Jan 2022 – Present</li>
+                <li><strong>Digital Marketing Intern – The Lyric Cinema</strong> | Feb 2024 – Aug 2024</li>
+                
             </ul>
         </div>
     )
