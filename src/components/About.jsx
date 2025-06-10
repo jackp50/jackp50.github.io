@@ -3,7 +3,10 @@ export default function About() {
         <>
             <div className="about">
                 <p>
-                    Hi, I'm <strong>Jack Pearne</strong>, a <strong>Colorado State University graduate</strong> with a 
+                    Hello!
+                    <br />
+                    <br />
+                    I'm <strong>Jack Pearne</strong>, a <strong>Colorado State University graduate</strong> with a 
                     <strong> Bachelor of Science in Business Administration</strong>, specializing in <strong>Computer Information Systems</strong>.
                 </p>
                 <p>
